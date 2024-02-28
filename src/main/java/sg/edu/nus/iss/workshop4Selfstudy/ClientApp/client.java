@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 
 public class client {
     public static void main (String[] args) {
-        System.out.println("ClientApp.main()");
+        //System.out.println("ClientApp.main()");
         String[] connInfo = args[0].split(":");
         System.out.println(connInfo[0] + " " + connInfo[1]);
 

@@ -27,8 +27,8 @@ public class cookie {
     }
 
     //create a list to hold all the cookies
-    private static List<String> getDataFromCookieFile (String cookieFilePath) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("cookieFilePath"));
+    private static List<String> getDataFromCookieFile (String filepath) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(filepath));
         List<String> cookies = new LinkedList<>();
         String line;
         while ((line = br.readLine()) != null) {
